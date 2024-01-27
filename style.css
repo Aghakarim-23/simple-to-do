@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(7, 7, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px solid white;
+  width: 60%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  overflow-y: scroll;
+
+}
+#newTask {
+  background-color: #fff;
+  width: 56%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 0.8rem;
+  padding: 2.5rem;
+  position: fixed;
+  margin-left: 1.4rem;
+  top: 9rem;
+
+
+}
+#newTask input {
+  width: 34rem;
+  height: 3rem;
+  text-align: center;
+  border: 1px solid rgb(94, 94, 94);
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+
+}
+#newTask button {
+  width: 5.5rem;
+  height: 3rem;
+  background-color: rgb(92, 204, 61);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  border: 1px solid rgb(94, 94, 94);
+  color: rgba(255, 255, 255, 0.86);
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+.paper{
+  background-color: #fff;
+  width: 95%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  border-radius: 0.8rem;
+  padding: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 1.4rem; 
+
+ .header{
+  background-color: red;
+ }
+
+}
+#tasks{
+  
+  height: 24rem;
+  margin-top: 11rem;
+  overflow-y: scroll;
+}
+  .delete{
+    width: 5.5rem;
+  height: 3rem;
+  border-radius: 1rem;
+
+  /* margin-left: 34rem; */
+  border: 1px solid rgb(94, 94, 94);
+  color: rgba(255, 255, 255, 0.86);
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+    background-color: red;
+    position: static;
+  }
+  #deleteAll{
+    background-color:  red !important;
+  }
+
